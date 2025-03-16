@@ -1,0 +1,32 @@
+class Super
+{
+		int rollno=152,prnno=0124UCSF2016;
+		
+	
+}
+class Derived extends Super
+{
+	
+		String sub1 = "java";
+		String sub2 ="DBMS";
+		void display()
+		{
+			System.out.println("Roll No. ="+rollno);
+			System.out.println("PRN No. ="+prnno);
+			System.out.println("Subject 1 ="+sub1);
+			System.out.println("Subject 2 ="+sub2);
+		
+		}
+		
+	}
+		
+}
+class SingleInheritance
+
+public static void main(String args[])
+	{
+		Derived d = new Derived();
+		d.display();
+	}
+}
+
