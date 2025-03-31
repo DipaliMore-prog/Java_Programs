@@ -1,4 +1,4 @@
-class ElectricityBill
+class ElectricityBILL
 {
 	public static void main(String args[])
 	{
