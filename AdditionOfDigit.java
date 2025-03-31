@@ -1,4 +1,4 @@
-class Armstrong
+class AdditionOfDigit
 {
 	public static void main(String args[])
 	{
